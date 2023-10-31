@@ -12,10 +12,9 @@ Tasks:
 
 1. Sliders
 1. Popups
-1. Filtration
+1. Tabs
 1. Calculator
-1. Accordeon
-1. Hamburger menu
+1. Timer
 
 Tools:
 
