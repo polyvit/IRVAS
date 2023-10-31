@@ -6,6 +6,8 @@
 
 [See demo]()
 
+_Completed in 2022_
+
 Tasks:
 
 1. Sliders
