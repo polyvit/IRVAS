@@ -1,11 +1,14 @@
 {
   "name": "window",
   "version": "1.0.0",
+  "homepage": "https://polyvit.github.io/IRVAS/",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp build-prod-js --openssl-legacy-provider"
+    "start": "gulp build-prod-js --openssl-legacy-provider",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "gulp build-prod-js"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +29,7 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
     "jquery": "^3.6.1",
     "slick-carousel": "^1.8.1"
   }
